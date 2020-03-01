@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Server.jnlp">
+  <information>
+    <title>Server</title>
+    <vendor>alessandronasso</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Server.jar" size="11672" download="eager" />
+    <jar href="lib/ant-javafx.jar" size="3862588" download="eager" />
+    <jar href="lib/dt.jar" size="163047" download="eager" />
+    <jar href="lib/javafx-mx.jar" size="36038" download="eager" />
+    <jar href="lib/jconsole.jar" size="407728" download="eager" />
+    <jar href="lib/packager.jar" size="4646" download="eager" />
+    <jar href="lib/sa-jdi.jar" size="2415567" download="eager" />
+    <jar href="lib/tools.jar" size="18298960" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Server" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="server.Server"  name="Server" />
+  <update check="always"/>
+</jnlp>

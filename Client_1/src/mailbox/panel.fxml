@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mailbox.PanelController">
+   <top>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="dest" layoutX="77.0" layoutY="51.0" />
+            <Label layoutX="40.0" layoutY="56.0" text="A:" />
+            <TextField fx:id="obj" layoutX="77.0" layoutY="111.0" />
+            <Label layoutX="40.0" layoutY="116.0" text="Obj:" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="testo" layoutX="14.0" layoutY="-43.0" prefHeight="186.0" prefWidth="277.0" />
+            <Button layoutX="123.0" layoutY="151.0" mnemonicParsing="false" onAction="#scrivi" text="Invia" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

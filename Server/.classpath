@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/lib/ant-javafx.jar"/>
+	<classpathentry kind="lib" path="dist/lib/dt.jar"/>
+	<classpathentry kind="lib" path="dist/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jconsole.jar"/>
+	<classpathentry kind="lib" path="dist/lib/packager.jar"/>
+	<classpathentry kind="lib" path="dist/lib/sa-jdi.jar"/>
+	<classpathentry kind="lib" path="dist/lib/tools.jar"/>
+	<classpathentry kind="lib" path="dist/Server.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

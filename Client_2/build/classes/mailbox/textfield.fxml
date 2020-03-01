@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane mouseTransparent="true" prefHeight="57.0" prefWidth="152.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mailbox.TextFieldController">
+<children>
+    <AnchorPane prefHeight="171.0" prefWidth="537.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0"> 
+        <children>
+            <TextField fx:id="id" editable="false" layoutX="355.0" layoutY="39.0" mouseTransparent="false" prefHeight="27.0" prefWidth="35.0" />
+            <TextField fx:id="mitt" editable="false" layoutX="355.0" layoutY="72.0" mouseTransparent="false" prefHeight="27.0" prefWidth="182.0" />
+            <TextField fx:id="dest" editable="false" layoutX="355.0" layoutY="108.0" mouseTransparent="false" prefHeight="27.0" prefWidth="182.0" />
+            <TextField fx:id="oggetto" editable="false" layoutX="355.0" layoutY="144.0" mouseTransparent="false" prefHeight="27.0" prefWidth="182.0" />
+            <TextField fx:id="data" editable="false" layoutX="437.0" layoutY="39.0" mouseTransparent="false" prefHeight="27.0" prefWidth="100.0" />
+            <Label layoutX="329.0" layoutY="44.0" text="ID:" />
+            <Label layoutX="291.0" layoutY="77.0" text="Mittente:" />
+            <Label layoutX="398.0" layoutY="44.0" text="Data:" />
+            <Label layoutX="268.0" layoutY="113.0" text="Destinatario:" />
+            <Label layoutX="292.0" layoutY="149.0" text="Oggetto:" />
+        </children>
+    </AnchorPane>
+</children>
+</AnchorPane>

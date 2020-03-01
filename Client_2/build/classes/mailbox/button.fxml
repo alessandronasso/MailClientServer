@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane layoutX="268" layoutY="190" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mailbox.ButtonController">
+    <children>
+        <AnchorPane>
+            <children>
+                <Button fx:id="scrivi" onMousePressed="#creaFinestra" prefHeight="27.0" prefWidth="65.0" text="Scrivi" />
+                <Button fx:id="reply" layoutX="74" disable="true" onMousePressed="#finestraRispondi" prefHeight="27.0" prefWidth="65.0" text="Reply" />
+                <Button fx:id="replyall" layoutX="152" onMousePressed="#finestraReplyAll" prefHeight="27.0" prefWidth="75.0" text="Reply-All" />
+                <Button fx:id="forward" layoutX="243" disable="true" onMousePressed="#finestraForward" prefHeight="27.0" prefWidth="75.0" text="Forward" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mailbox.MenuBarController">
+    <children>
+        <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="325" AnchorPane.topAnchor="0.0">
+            <children>
+                <StackPane prefHeight="30.0" prefWidth="16.0">
+                    <children>
+                        <MenuBar fx:id="menuBar" layoutX="1.0" layoutY="1.0">
+                            <menus>
+                                <Menu text="File">
+                                    <items>
+                                        <MenuItem onAction="#elimina" text="Elimina" />
+                                    </items>
+                                    <items>
+                                        <MenuItem onAction="#exit" text="Esci" />
+                                    </items>
+                                </Menu>
+                            </menus>
+                        </MenuBar>
+                    </children>
+                </StackPane>
+            </children>
+        </VBox>
+        <Label layoutX="180.0" layoutY="8.0" text="Account:" />
+        <Label fx:id="account" layoutX="240.0" layoutY="8.0" text="Label" />
+    </children>
+</AnchorPane>
